@@ -1,0 +1,181 @@
+.Card-Container {
+    overflow-y: hidden;
+    background-color: white;
+    width: 450px;
+    overflow-x: hidden;
+    height: 93vh;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Card-Container {
+        z-index: 1000;
+        position: fixed;
+        top: 10px;
+        left: 2%;
+        width: 96%;
+    }
+}
+
+.Card-Container img , i {
+    cursor: pointer;
+}
+
+.Card-Container h3 {
+    font-size: 35px;
+}
+
+.Card-Container h4 {
+    font-size: 20px;
+    margin: 10px 0 ;
+}
+
+.Card-Container p {
+    font-size: 14px;
+    margin: 0;
+    color: grey;
+}
+
+.Card-Header {
+    height: 22vh;
+    background-image: linear-gradient(to right, rgb(253, 248, 187), rgb(255, 0, 59));
+    color: white;
+}
+
+.CardBtns {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin:10px;
+    gap: 20px;
+}
+
+.trashBtn {
+    font-size: 30px;
+}
+
+.editBtn {
+    font-size: 25px;
+}
+
+.backMenu-content {
+    cursor: pointer;
+    display: flex;
+    line-height: 10px;
+    margin-left: 50px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    gap: 10px;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(146, 62, 23, 0.91);
+    font-size: 30px;
+    transition: 400ms;
+}
+
+.backMenu-content:hover {
+    text-shadow: 1px 1px 10px rgba(71, 7, 7, 0.91);
+}
+
+.Profile-top {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile-Main {
+    margin: -20px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-image {
+    border-radius: 10px;
+    width: 130px;
+    box-shadow: 0px 0px 3px 1px #ff445e;
+}
+
+.Profile-Main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Contact-icons img {
+    width: 40px;
+    transition: 0.5s;
+}
+
+.Contact-icons img:hover {
+    width: 50px;
+}
+
+.OtherInfo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    gap: 15px;
+    overflow: auto;
+    height: 35vh;
+}
+
+
+.OtherInfo::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.OtherInfo::-webkit-scrollbar-track {
+    background-color: #0f1255;
+    border-radius: 5px;
+}
+
+.OtherInfo::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.OtherInfo-Single {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+
+.OtherInfo-Single img {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.OtherInfo-Single-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+hr {
+    width: 80%;
+    border-top: none;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+.profilePic {
+    width: 6rem;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.Card-Container input {
+    width: 10rem;
+    height: 2vh;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    color: #0a1138;
+}
+
+.Card-Container input:hover {
+    box-shadow: rgba(74, 121, 0, 0.35) 2px 8px 12px;
+}
+
+.Card-Container input:focus {
+    box-shadow: rgba(174, 186, 12, 0.58) 2px 8px 12px;
+}
