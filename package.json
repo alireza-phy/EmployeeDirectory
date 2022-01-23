@@ -1,6 +1,6 @@
 {
   "name": "phonebook",
-  "homepage": "https://alireza-phy.github.io/EmployeeDirectory/",
+  "homepage": "https://alireza-phy.github.io/phonebook/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
