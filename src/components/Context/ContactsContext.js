@@ -9,7 +9,7 @@ export const ContactsContext = createContext({
 const ContactsContextProvider = ({children}) => {
     const [contactsList , setContactsList] = useState([])
     useEffect(() => {
-        fetch('api/contacts')
+        fetch('/api/contacts')
             .then(response => response.json())
             .then(data => setContactsList(data.contacts))
     }, []);
