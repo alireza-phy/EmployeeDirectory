@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/EmployeeDirectory/static/css/main.e6c13ad2.css",
-    "main.js": "/EmployeeDirectory/static/js/main.93dbeeae.js",
-    "static/js/787.fb7303d9.chunk.js": "/EmployeeDirectory/static/js/787.fb7303d9.chunk.js",
-    "index.html": "/EmployeeDirectory/index.html",
-    "main.e6c13ad2.css.map": "/EmployeeDirectory/static/css/main.e6c13ad2.css.map",
-    "main.93dbeeae.js.map": "/EmployeeDirectory/static/js/main.93dbeeae.js.map",
-    "787.fb7303d9.chunk.js.map": "/EmployeeDirectory/static/js/787.fb7303d9.chunk.js.map"
+    "main.css": "/phonebook/static/css/main.975e8622.css",
+    "main.js": "/phonebook/static/js/main.e648f0d6.js",
+    "static/media/bootstrap-icons.woff?": "/phonebook/static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
+    "static/media/bootstrap-icons.woff2?": "/phonebook/static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
+    "static/media/icons8-whatsapp.svg": "/phonebook/static/media/icons8-whatsapp.5595c0c431fb4457f76982460b867fee.svg",
+    "index.html": "/phonebook/index.html",
+    "static/media/icons8-telegram-app.svg": "/phonebook/static/media/icons8-telegram-app.b0589b5e724dd92cc132ddb6a0e049d9.svg",
+    "static/media/icons8-skype.svg": "/phonebook/static/media/icons8-skype.28f45b0e7baccddabd06a0504e20df14.svg",
+    "main.975e8622.css.map": "/phonebook/static/css/main.975e8622.css.map",
+    "main.e648f0d6.js.map": "/phonebook/static/js/main.e648f0d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.93dbeeae.js"
+    "static/css/main.975e8622.css",
+    "static/js/main.e648f0d6.js"
   ]
 }
